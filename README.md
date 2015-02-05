@@ -16,10 +16,12 @@ Steps to get going
    run `vagrant box add ubuntu/trusty64`. This may take a while since it's
    going to download a VM image of Ubuntu Trusty (14.04)
  * Now you can start your VM - use the command `vagrant up`. Note that since
-   this is the first time that you start this particular VM, it will run the
-   file `.provisioning_script.sh`. It will update the OS and install some
-   useful packages for developers; as a result it might take some time.
- * Once everything finishing you can log in to your new VM with
+   this is the first time that you've start this particular VM, it will run the
+   file `.provisioning_script.sh`. That will update the OS and install some
+   useful packages for developers; as a result, you might be waiting for a
+   little while for everything to finish. Don't worry - this only happens when
+   the first you bring the VM up.
+ * Once everything is finished you can log in to your new VM with
    `vagrant ssh`.
  * When you're done, use `exit` to leave the ssh session. You should end up
    back at the Windows command prompt where you can enter `vagrant halt` to
